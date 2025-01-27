@@ -3,8 +3,8 @@
 <p id="description">This application is part of a prestudy made by Juuso Kärnä and Kasper Heikkinen at Terveystalo starting December 2024.</p>
 <p id="description">This repository contains Terraform scripts for deploying Azure-based infrastructure, along with Azure Functions that manage FHIR resources, Pub/Sub messaging, and SignalR connections.</p>
 <p id="description">This project is designed to work alongside two React.js applications: the Encounter Notification App and the Resource Manager App. Together, these three repositories form a context management demo aimed at modernizing a legacy health record system.</p>
-<li><strong>Encounter notifications:</strong> Placeholder.</li>
-<li><strong>Resource manager:</strong> Placeholder.</li>
+<li><strong>Encounter notifications:</strong> https://github.com/Kiisshen/FHIR_Encounter_Notifications</li>
+<li><strong>Resource manager:</strong> https://github.com/Kiisshen/FHIR_Resource_Manager</li>
 
 ```mermaid
 sequenceDiagram
