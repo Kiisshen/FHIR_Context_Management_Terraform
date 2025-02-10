@@ -82,7 +82,7 @@ sequenceDiagram
         <li><strong>Apply the terraform deployment again:</strong>
             <pre><code>terraform apply main.tfplan</code></pre>
         </li>
-        <li><strong>Destroy the deployment:</strong>
+        <li><strong>Plan the destruction of the project:</strong>
             <pre><code>terraform plan -destroy -out main.tfplandestroy</code></pre>
         </li>
         <li><strong>Destroy the deployment:</strong>
