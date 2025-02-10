@@ -83,6 +83,6 @@ sequenceDiagram
             <pre><code>terraform apply main.tfplan</code></pre>
         </li>
         <li><strong>Destroy the deployment:</strong>
-            <pre><code>terraform destroy main.tfplandestroy"</code></pre>
+            <pre><code>terraform destroy main.tfplandestroy</code></pre>
         </li>
     </ol>
