@@ -58,7 +58,7 @@ sequenceDiagram
   <h2>Note</h2>
       <li>Sometimes if the Terraform process fails, FHIR Service seems to install but is not added to Terraforms State. If this happens, you have to manually import the FHIR Service to the State. The           error message will print a reference to the found FHIR Service which can be used to add the FHIR Service to the state.</li>
         <li><strong>Import command:</strong>
-            <pre><code>terraform import azurerm_healthcare_fhir_service.example <reference_to_fhir_service></code></pre>
+            <pre><code>terraform import azurerm_healthcare_fhir_service.example reference_to_fhir_service)</code></pre>
         </li>
 
   <h2>Usage</h2>
